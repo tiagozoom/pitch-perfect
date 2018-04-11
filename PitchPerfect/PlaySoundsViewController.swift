@@ -45,7 +45,7 @@ class PlaySoundsViewController: UIViewController{
         case ButtonType.echo:
             playSound(echo: true)
         case ButtonType.reverb:
-            playSound(echo: false)
+            playSound(reverb: true)
         }
         configureUI(.playing)
     }
